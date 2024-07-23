@@ -1,0 +1,11 @@
+city_id,date,hour,temp,wind_speed,description,precip,humidity,visibility,pressure,chanceofrain,chanceoffog,chanceofsnow,chanceofthunder
+C-927ceb5e,2019-01-01,0,30,11,"Light snow",0,86,6,1019,0,0,0,0
+C-927ceb5e,2019-01-01,100,28,12,"Light snow",0,86,5,1021,0,0,0,0
+C-927ceb5e,2019-01-01,200,28,13,"Moderate snow",0,85,4,1022,0,0,0,0
+C-927ceb5e,2019-01-01,300,28,14,"Moderate snow",0,84,3,1024,0,0,0,0
+C-927ceb5e,2019-01-01,400,28,13,"Moderate snow",0,84,3,1025,0,0,0,0
+C-927ceb5e,2019-01-01,500,27,12,"Moderate snow",0,84,3,1026,0,0,0,0
+C-927ceb5e,2019-01-01,600,27,12,"Moderate snow",0,84,3,1027,0,0,0,0
+C-927ceb5e,2019-01-01,700,27,12,"Moderate snow",0,83,4,1027,0,0,0,0
+C-927ceb5e,2019-01-01,800,27,12,"Light snow",0,83,5,1028,0,0,0,0
+C-927ceb5e,2019-01-01,900,25,13,"Light snow",0,83,6,1029,0,0,0,0

@@ -1,0 +1,11 @@
+driver_id,name,gender,age,experience,driving_style,ratings,vehicle_no,average_speed_mph
+d9f30553-6,"Daniel Marks",male,47,5,proactive,7,42302347,62.22
+82de7bb8-2,"Clifford Carr",male,47,14,proactive,4,27867488,60.89
+7e789842-4,"Terry Faulkner MD",male,41,9,conservative,2,13927774,53.67
+b2555587-8,"Brendan Jacobs",male,44,10,proactive,2,69577118,59.82
+b2e58421-d,"Vincent Davis",male,41,10,proactive,7,28650047,62.65
+6ef125cc-7,"Alexander Wheeler",male,49,10,proactive,4,29303248,57.66
+e2796d38-5,"Frederick Perry",male,54,17,conservative,9,76304377,40.79
+86b61bd1-8,"Todd Garrison",male,49,5,NULL,4,21093078,61.7
+24d78a24-e,"John Anthony",male,48,0,conservative,3,41713749,42.15
+09665f38-8,"Robert Russell DDS",male,40,6,conservative,2,14730346,46.49
