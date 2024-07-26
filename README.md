@@ -3,12 +3,18 @@
 
 
 ● City Weather: Weather data for various cities
+
 ● Routes: Information about truck routes, including origin, destination, distance,
  and travel time
+ 
 ● Drivers: Details about truck drivers, including names and experience
+
 ● Routes Weather: Weather conditions specific to each route
+
 ● Trucks: Information about the trucks used in logistics operations
+
 ● Traffic: Traffic-related data
+
 ● Truck Schedule: Schedules and timing information for trucks
 
 
