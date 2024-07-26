@@ -1,7 +1,7 @@
-Datasets:
+## Datasets
 
 
-Data set :
+
 ● City Weather: Weather data for various cities
 ● Routes: Information about truck routes, including origin, destination, distance,
  and travel time
@@ -13,16 +13,15 @@ Data set :
 
 
 Mysql:
+
 Driver Data
 Truck Data
 Trafic Data
 Weather Data
 
 Postgres:
+
 Routes Data
 
 
-Feature Store :A feature store is a central repository for storing, sharing, and managing machine learning features. 
-Features are individual measurable properties or characteristics used in predictive models.
-The primary purpose of a feature store is to ensure that features used during model training are consistent with those used during
- model serving, thereby enhancing reproducibility and reducing discrepancies between offline training and online inference.
+Feature Store: A feature store is a central repository for storing, sharing, and managing machine learning features.  Features are individual measurable properties or characteristics used in predictive models. The primary purpose of a feature store is to ensure that features used during model training are consistent with those used during model serving, thereby enhancing reproducibility and reducing discrepancies between offline training and online inference.
