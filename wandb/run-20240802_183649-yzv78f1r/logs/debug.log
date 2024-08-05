@@ -1,0 +1,45 @@
+2024-08-02 18:36:49,181 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-08-02 18:36:49,183 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Configure stats pid to 22408
+2024-08-02 18:36:49,183 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Loading settings from C:\Users\harsh\.config\wandb\settings
+2024-08-02 18:36:49,183 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Loading settings from e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\settings
+2024-08-02 18:36:49,183 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-02 18:36:49,183 INFO    MainThread:22408 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-08-02 18:36:49,220 INFO    MainThread:22408 [wandb_init.py:_log_setup():524] Logging user logs to e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240802_183649-yzv78f1r\logs\debug.log
+2024-08-02 18:36:49,220 INFO    MainThread:22408 [wandb_init.py:_log_setup():525] Logging internal logs to e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240802_183649-yzv78f1r\logs\debug-internal.log
+2024-08-02 18:36:49,220 INFO    MainThread:22408 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001E93621BFA0>
+2024-08-02 18:36:49,222 INFO    MainThread:22408 [wandb_init.py:init():564] calling init triggers
+2024-08-02 18:36:49,223 INFO    MainThread:22408 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-08-02 18:36:49,223 INFO    MainThread:22408 [wandb_init.py:init():614] starting backend
+2024-08-02 18:36:49,223 INFO    MainThread:22408 [wandb_init.py:init():618] setting up manager
+2024-08-02 18:36:49,237 INFO    MainThread:22408 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-02 18:36:49,262 INFO    MainThread:22408 [wandb_init.py:init():624] backend started and connected
+2024-08-02 18:36:49,286 INFO    MainThread:22408 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-08-02 18:36:49,288 INFO    MainThread:22408 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-08-02 18:36:49,289 INFO    MainThread:22408 [wandb_init.py:init():716] updated telemetry
+2024-08-02 18:36:49,426 INFO    MainThread:22408 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-08-02 18:36:50,121 INFO    MainThread:22408 [wandb_run.py:_on_init():2254] communicating current version
+2024-08-02 18:36:50,329 INFO    MainThread:22408 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-02 18:36:50,330 INFO    MainThread:22408 [wandb_init.py:init():800] starting run threads in backend
+2024-08-02 18:36:51,618 ERROR   MainThread:22408 [wandb_init.py:init():1198] error
+Traceback (most recent call last):
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_init.py", line 1170, in init
+    run = wi.init()
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_init.py", line 840, in init
+    run._on_start()
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 2272, in _on_start
+    self._header(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 3427, in _header
+    Run._header_version_check_info(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 3449, in _header_version_check_info
+    printer.display(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\lib\printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\lib\printer.py", line 248, in _display
+    self._display_fn_mapping(level)(text)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\lib\ipython.py", line 77, in display_html
+    from IPython.core.display import HTML, display  # type: ignore
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\IPython\core\display.py", line 44, in __getattr__
+    warn(f"Importing {name} from IPython.core.display is deprecated since IPython 7.14, please import from IPython display", DeprecationWarning, stacklevel=2)
+DeprecationWarning: Importing display from IPython.core.display is deprecated since IPython 7.14, please import from IPython display

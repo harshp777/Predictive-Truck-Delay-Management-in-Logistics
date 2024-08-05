@@ -1,0 +1,26 @@
+F1_score Train: 0.5748
+F1_score Valid: 0.6087
+F1_score Test: 0.7252
+wandb:
+wandb: Plotting LogisticRegression.
+wandb: Logged feature importances.
+2024-08-02 18:57:40,631 WARNING: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.
+wandb: Logged confusion matrix.
+2024-08-02 18:57:41,461 WARNING: DeprecationWarning: Please import `csr_matrix` from the `scipy.sparse` namespace; the `scipy.sparse.csr` namespace is deprecated and will be removed in SciPy 2.0.0.
+wandb: Logged summary metrics.
+wandb: Logged class proportions.
+wandb: Logged calibration curve.
+wandb: Logged roc curve.
+wandb: Logged precision-recall curve.
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_29052\1851004068.py", line 51, in train_logistic_model
+    wandb.save("log-truck-model.pkl")
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1852, in save
+    return self._save(glob_str, base_path, policy)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1906, in _save
+    os.symlink(abs_path, wandb_path)
+OSError: [WinError 1314] A required privilege is not held by the client: 'e:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\log-truck-model.pkl' -> 'e:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240802_185736-o16ci57v\\files\\log-truck-model.pkl'
