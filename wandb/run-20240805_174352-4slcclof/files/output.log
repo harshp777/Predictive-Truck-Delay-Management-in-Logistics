@@ -1,0 +1,35 @@
+F1_score Train: 0.5744
+F1_score Valid: 0.6637
+F1_score Test: 0.76
+wandb:
+wandb: Plotting RandomForestClassifier.
+Traceback (most recent call last):
+  File "C:\Users\harsh\AppData\Local\Temp\ipykernel_18532\2640226391.py", line 44, in train_rf_model
+    wandb.sklearn.plot_classifier(model, X_train, X_test, y_train, y_test, y_preds, y_probas, labels=None,
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sklearn\plot\classifier.py", line 82, in classifier
+    feature_importances(model, feature_names)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sklearn\plot\classifier.py", line 250, in feature_importances
+    wandb.log({"feature_importances": feature_importance_chart})
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 420, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1820, in log
+    self._log(data=data, step=step, commit=commit)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1595, in _log
+    self._partial_history_callback(data, step, commit)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1467, in _partial_history_callback
+    self._backend.interface.publish_partial_history(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\interface\interface.py", line 549, in publish_partial_history
+    data = history_dict_to_json(run, data, step=user_step, ignore_copy_err=True)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\data_types\utils.py", line 52, in history_dict_to_json
+    payload[key] = val_to_json(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\data_types\utils.py", line 164, in val_to_json
+    val.bind_to_run(run, key, namespace)
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\data_types.py", line 541, in bind_to_run
+    with codecs.open(tmp_path, "w", encoding="utf-8") as fp:
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\codecs.py", line 905, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\harsh\\AppData\\Local\\Temp\\tmpqphwv_07wandb-media\\zdg44ylb.table.json'
