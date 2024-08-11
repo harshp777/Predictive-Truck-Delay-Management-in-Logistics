@@ -1,1 +1,4 @@
 credentials.py
+config.yaml
+Deployment\app_config.yaml
+Deploy\app_config.yaml
