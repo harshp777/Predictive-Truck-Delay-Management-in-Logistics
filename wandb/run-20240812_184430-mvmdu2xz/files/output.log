@@ -1,0 +1,12 @@
+F1_score Train: 0.9903
+F1_score Valid: 0.5518
+F1_score Test: 0.6769
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting RandomForestClassifier.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: Logged roc curve.
+[34m[1mwandb[39m[22m: Logged precision-recall curve.

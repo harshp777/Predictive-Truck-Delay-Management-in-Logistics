@@ -1,0 +1,752 @@
+2024-08-12 17:44:49,380:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 17:44:49,380:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 17:44:49,380:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 17:44:49,380:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 17:44:49,404:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 17:44:49,404:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 17:44:49,404:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 17:44:49,404:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 17:44:49,424:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,424:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,424:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,424:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,431:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,431:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,431:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,431:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,435:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,435:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,435:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,435:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 17:44:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 17:44:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 17:44:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 17:44:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 17:44:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,446:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,446:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,446:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,446:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,448:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,448:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,448:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,448:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 17:44:49,661:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,661:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,661:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,661:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,662:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,662:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,662:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,662:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,766:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,766:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,766:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,766:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,767:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,767:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,767:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,767:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,900:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,900:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,900:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,900:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 17:44:49,901:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,901:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,901:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:49,901:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 17:44:50,118:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,118:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,118:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,118:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,168:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,168:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,168:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,168:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 17:44:50,172:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 17:44:50,172:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 17:44:50,172:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 17:44:50,172:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 17:44:50,218:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 17:44:50,218:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 17:44:50,218:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 17:44:50,218:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 17:45:15,834:ERROR:ml_pipeline.utils:train_models:264:An error occurred while training the models: [Errno 2] No such file or directory: '..\\models\\log-truck-model.pkl'
+2024-08-12 17:45:15,834:ERROR:ml_pipeline.utils:train_models:264:An error occurred while training the models: [Errno 2] No such file or directory: '..\\models\\log-truck-model.pkl'
+2024-08-12 17:45:15,834:ERROR:ml_pipeline.utils:train_models:264:An error occurred while training the models: [Errno 2] No such file or directory: '..\\models\\log-truck-model.pkl'
+2024-08-12 17:45:15,834:ERROR:ml_pipeline.utils:train_models:264:An error occurred while training the models: [Errno 2] No such file or directory: '..\\models\\log-truck-model.pkl'
+2024-08-12 17:45:15,837:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 17:45:15,837:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 17:45:15,837:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 17:45:15,837:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:00:15,196:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:00:15,196:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:00:15,196:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:00:15,196:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:00:15,248:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:00:15,248:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:00:15,248:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:00:15,248:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:00:15,262:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,262:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,262:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,262:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,266:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,266:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,266:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,266:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,269:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,269:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,269:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,269:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:00:15,273:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:00:15,273:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:00:15,273:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:00:15,273:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:00:15,277:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,277:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,277:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,277:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,278:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,278:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,278:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,278:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,280:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,280:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,280:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,280:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:00:15,373:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,373:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,373:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,373:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,374:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,374:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,374:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,374:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,435:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,495:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,495:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,495:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,495:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:00:15,496:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,496:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,496:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,496:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:00:15,653:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,653:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,653:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,653:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,689:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,689:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,689:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,689:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:00:15,691:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:00:15,691:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:00:15,691:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:00:15,691:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:00:15,726:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:00:15,726:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:00:15,726:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:00:15,726:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:00:39,965:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180019-osyf4bma\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:00:39,965:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180019-osyf4bma\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:00:39,965:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180019-osyf4bma\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:00:39,965:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180019-osyf4bma\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:00:39,998:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:00:39,998:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:00:39,998:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:00:39,998:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:08:13,669:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:08:13,669:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:08:13,669:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:08:13,669:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:08:13,730:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:08:13,730:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:08:13,730:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:08:13,730:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:08:13,746:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,746:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,746:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,746:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,752:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,752:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,752:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,752:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,757:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,757:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,757:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,757:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:08:13,760:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:08:13,760:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:08:13,760:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:08:13,760:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:08:13,762:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,762:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,762:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,762:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,764:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,764:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,764:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,764:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,765:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,765:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,765:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,765:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:08:13,884:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,884:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,884:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,884:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,885:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,885:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,885:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,885:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,952:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,952:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,952:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,952:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:13,953:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,953:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,953:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:13,953:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:14,016:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:14,016:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:14,016:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:14,016:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:08:14,017:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:14,017:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:14,017:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:14,017:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:08:14,172:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,172:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,172:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,172:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,219:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,219:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,219:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,219:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:08:14,222:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:08:14,222:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:08:14,222:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:08:14,222:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:08:14,262:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:08:14,262:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:08:14,262:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:08:14,262:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:08:37,865:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180818-0o16ko48\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:08:37,865:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180818-0o16ko48\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:08:37,865:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180818-0o16ko48\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:08:37,865:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_180818-0o16ko48\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:08:37,931:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:08:37,931:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:08:37,931:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:08:37,931:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:10:58,837:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:10:58,837:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:10:58,837:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:10:58,837:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:10:58,892:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:10:58,892:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:10:58,892:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:10:58,892:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:10:58,907:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,907:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,907:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,907:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,912:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,912:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,912:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,912:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,918:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,918:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,918:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,918:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:10:58,922:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:10:58,922:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:10:58,922:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:10:58,922:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:10:58,924:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,924:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,924:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,924:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,926:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,926:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,926:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,926:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,928:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,928:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,928:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:58,928:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:10:59,050:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,050:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,050:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,050:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,051:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,051:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,051:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,051:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,116:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,116:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,116:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,116:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,117:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,117:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,117:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,117:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,172:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:10:59,328:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,328:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,328:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,328:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,362:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,362:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,362:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,362:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:10:59,365:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:10:59,365:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:10:59,365:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:10:59,365:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:10:59,396:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:10:59,396:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:10:59,396:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:10:59,396:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:11:23,661:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_181103-bn6a7mbj\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:11:23,661:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_181103-bn6a7mbj\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:11:23,661:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_181103-bn6a7mbj\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:11:23,661:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_181103-bn6a7mbj\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:11:23,697:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:11:23,697:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:11:23,697:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:11:23,697:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:28:28,706:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:28:28,706:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:28:28,706:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:28:28,706:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:28:28,763:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:28:28,763:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:28:28,763:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:28:28,763:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:28:28,779:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,779:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,779:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,779:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,786:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,786:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,786:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,786:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,792:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,792:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,792:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,792:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:28:28,796:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:28:28,796:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:28:28,796:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:28:28,796:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:28:28,798:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,798:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,798:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,798:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,800:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,800:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,800:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,800:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,801:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,801:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,801:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,801:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:28:28,902:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,902:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,902:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,902:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,903:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,903:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,903:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,903:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:28,980:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:29,036:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:28:29,244:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,244:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,244:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,244:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,272:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,272:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,272:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,272:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:28:29,275:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:28:29,275:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:28:29,275:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:28:29,275:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:28:29,307:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:28:29,307:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:28:29,307:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:28:29,307:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:28:52,277:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_182833-0vq6cfcu\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:28:52,277:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_182833-0vq6cfcu\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:28:52,277:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_182833-0vq6cfcu\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:28:52,277:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\log-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_182833-0vq6cfcu\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:28:52,308:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:28:52,308:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:28:52,308:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:28:52,308:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:32:49,353:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:32:49,353:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:32:49,353:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:32:49,353:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:32:49,411:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:32:49,411:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:32:49,411:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:32:49,411:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:32:49,426:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,426:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,426:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,426:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,430:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,430:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,430:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,430:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,434:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,434:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,434:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,434:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:32:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:32:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:32:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:32:49,438:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:32:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,441:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,442:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,442:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,442:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,442:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,443:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,443:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,443:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,443:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,538:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,599:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,669:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,669:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,669:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,669:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:32:49,670:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,670:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,670:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,670:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:32:49,840:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,840:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,840:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,840:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,874:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,874:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,874:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,874:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:32:49,877:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:32:49,877:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:32:49,877:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:32:49,877:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:32:49,914:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:32:49,914:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:32:49,914:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:32:49,914:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:33:14,931:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183254-4xffopia\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:33:14,931:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183254-4xffopia\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:33:14,931:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183254-4xffopia\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:33:14,931:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183254-4xffopia\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:33:14,964:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:33:14,964:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:33:14,964:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:33:14,964:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:35:13,024:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:35:13,024:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:35:13,024:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:35:13,024:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:35:13,079:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:35:13,079:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:35:13,079:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:35:13,079:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:35:13,092:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,092:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,092:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,092:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,097:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,097:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,097:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,097:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,101:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,101:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,101:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,101:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:35:13,105:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:35:13,105:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:35:13,105:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:35:13,105:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:35:13,107:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,107:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,107:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,107:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,109:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,109:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,109:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,109:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,110:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,110:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,110:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,110:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:35:13,204:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,204:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,204:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,204:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,205:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,205:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,205:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,205:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,268:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,268:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,268:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,268:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,269:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,269:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,269:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,269:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,325:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,325:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,325:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,325:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:35:13,326:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,326:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,326:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,326:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:35:13,477:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,477:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,477:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,477:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,509:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,509:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,509:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,509:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:35:13,522:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:35:13,522:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:35:13,522:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:35:13,522:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:35:13,559:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:35:13,559:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:35:13,559:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:35:13,559:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:35:35,476:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183517-u0dtf89u\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:35:35,476:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183517-u0dtf89u\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:35:35,476:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183517-u0dtf89u\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:35:35,476:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183517-u0dtf89u\\files\\models\\log-truck-model.pkl'
+2024-08-12 18:35:35,517:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:35:35,517:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:35:35,517:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:35:35,517:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:37:24,660:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:37:24,660:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:37:24,660:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:37:24,660:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:37:24,715:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:37:24,715:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:37:24,715:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:37:24,715:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:37:24,731:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,731:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,731:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,731:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,736:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,736:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,736:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,736:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,742:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,742:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,742:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,742:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:37:24,745:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:37:24,745:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:37:24,745:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:37:24,745:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:37:24,747:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,747:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,747:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,747:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,749:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,749:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,749:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,749:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,751:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,751:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,751:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,751:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,866:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,941:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,941:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,941:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,941:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,942:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,942:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,942:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,942:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,997:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,997:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,997:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,997:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:37:24,998:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,998:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,998:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:24,998:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:37:25,158:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,158:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,158:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,158:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,189:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,189:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,189:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,189:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:37:25,195:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:37:25,195:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:37:25,195:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:37:25,195:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:37:25,230:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:37:25,230:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:37:25,230:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:37:25,230:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:38:09,271:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\randomf-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183748-pccg0d66\\files\\models\\randomf-truck-model.pkl'
+2024-08-12 18:38:09,271:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\randomf-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183748-pccg0d66\\files\\models\\randomf-truck-model.pkl'
+2024-08-12 18:38:09,271:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\randomf-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183748-pccg0d66\\files\\models\\randomf-truck-model.pkl'
+2024-08-12 18:38:09,271:ERROR:ml_pipeline.utils:train_models:265:An error occurred while training the models: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\randomf-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183748-pccg0d66\\files\\models\\randomf-truck-model.pkl'
+2024-08-12 18:38:09,303:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:38:09,303:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:38:09,303:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:38:09,303:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:44:07,226:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:44:07,226:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:44:07,226:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:44:07,226:INFO:ml_pipeline.utils:main:20:Final merged data fetched from Hopsworks.
+2024-08-12 18:44:07,275:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:44:07,275:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:44:07,275:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:44:07,275:INFO:ml_pipeline.utils:main:25:Data split into train test and validation sets.
+2024-08-12 18:44:07,289:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,289:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,289:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,289:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,294:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,294:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,294:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,294:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,298:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,298:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,298:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,298:INFO:ml_pipeline.utils:drop_null_values:14:Null values dropped successfully.
+2024-08-12 18:44:07,302:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:44:07,302:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:44:07,302:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:44:07,302:INFO:ml_pipeline.utils:calculate_mode:27:Mode calculated successfully for load_capacity_pounds.
+2024-08-12 18:44:07,304:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,304:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,304:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,304:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,305:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,305:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,305:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,305:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,306:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,306:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,306:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,306:INFO:ml_pipeline.utils:fill_missing_values_with_mode:40:Missing values in load_capacity_pounds filled with mode value.
+2024-08-12 18:44:07,411:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,411:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,411:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,411:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,412:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,412:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,412:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,412:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,482:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,542:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,542:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,542:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,542:INFO:ml_pipeline.utils:process_categorical_data:52:One-Hot Encoding completed successfully.
+2024-08-12 18:44:07,543:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,543:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,543:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,543:INFO:ml_pipeline.utils:process_categorical_data:55:Original categorical features dropped successfully.
+2024-08-12 18:44:07,712:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,712:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,712:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,712:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,745:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,745:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,745:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,745:INFO:ml_pipeline.utils:scale_data:68:Data scaling completed successfully.
+2024-08-12 18:44:07,747:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:44:07,747:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:44:07,747:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:44:07,747:INFO:ml_pipeline.utils:save_encoder_scaler:82:Encoder and scaler saved successfully.
+2024-08-12 18:44:07,781:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:44:07,781:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:44:07,781:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:44:07,781:INFO:ml_pipeline.utils:main:36:Model Training started.
+2024-08-12 18:45:03,173:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:45:03,173:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:45:03,173:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed
+2024-08-12 18:45:03,173:INFO:ml_pipeline.utils:main:38:Model Training and Registration Completed

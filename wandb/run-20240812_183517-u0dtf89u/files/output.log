@@ -1,0 +1,21 @@
+F1_score Train: 0.5588
+F1_score Valid: 0.6469
+F1_score Test: 0.7385
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting LogisticRegression.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Logged roc curve.
+[34m[1mwandb[39m[22m: Logged precision-recall curve.
+Traceback (most recent call last):
+  File "E:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\ml_pipeline\modelling.py", line 76, in train_logistic_model
+    shutil.copy("E://Artificial Intelligence//Projects//Predictive-Truck-Delay-Management-in-Logistics//models//log-truck-model.pkl", os.path.join(wandb.run.dir,"models", "log-truck-model.pkl"))
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\shutil.py", line 417, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\shutil.py", line 256, in copyfile
+    with open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183517-u0dtf89u\\files\\models\\log-truck-model.pkl'

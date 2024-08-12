@@ -1,0 +1,41 @@
+2024-08-12 17:44:56,480 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-08-12 17:44:56,480 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Configure stats pid to 5624
+2024-08-12 17:44:56,480 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Loading settings from C:\Users\harsh\.config\wandb\settings
+2024-08-12 17:44:56,481 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Loading settings from E:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\settings
+2024-08-12 17:44:56,481 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-08-12 17:44:56,481 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-12 17:44:56,482 INFO    MainThread:5624 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'engine.py', 'program_abspath': 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\engine.py', 'program': 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\engine.py'}
+2024-08-12 17:44:56,482 INFO    MainThread:5624 [wandb_init.py:_log_setup():524] Logging user logs to E:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240812_174456-d9hhynft\logs\debug.log
+2024-08-12 17:44:56,483 INFO    MainThread:5624 [wandb_init.py:_log_setup():525] Logging internal logs to E:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240812_174456-d9hhynft\logs\debug-internal.log
+2024-08-12 17:44:56,483 INFO    MainThread:5624 [wandb_init.py:init():564] calling init triggers
+2024-08-12 17:44:56,483 INFO    MainThread:5624 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-08-12 17:44:56,483 INFO    MainThread:5624 [wandb_init.py:init():614] starting backend
+2024-08-12 17:44:56,483 INFO    MainThread:5624 [wandb_init.py:init():618] setting up manager
+2024-08-12 17:44:56,486 INFO    MainThread:5624 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-12 17:44:56,492 INFO    MainThread:5624 [wandb_init.py:init():624] backend started and connected
+2024-08-12 17:44:56,500 INFO    MainThread:5624 [wandb_init.py:init():716] updated telemetry
+2024-08-12 17:44:56,570 INFO    MainThread:5624 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-08-12 17:44:56,973 INFO    MainThread:5624 [wandb_run.py:_on_init():2254] communicating current version
+2024-08-12 17:44:57,119 INFO    MainThread:5624 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.17.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-12 17:44:57,119 INFO    MainThread:5624 [wandb_init.py:init():800] starting run threads in backend
+2024-08-12 17:44:58,836 INFO    MainThread:5624 [wandb_run.py:_console_start():2233] atexit reg
+2024-08-12 17:44:58,836 INFO    MainThread:5624 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-08-12 17:44:58,836 INFO    MainThread:5624 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-08-12 17:44:58,837 INFO    MainThread:5624 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-08-12 17:44:58,838 INFO    MainThread:5624 [wandb_init.py:init():841] run started, returning control to user process
+2024-08-12 17:44:59,016 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'feature_importances') {'id': 'wandb/feature_importances/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'feature_importances'}} None
+2024-08-12 17:44:59,492 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2024-08-12 17:44:59,816 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'summary_metrics') {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'summary_metrics'}} None
+2024-08-12 17:44:59,983 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2024-08-12 17:45:00,714 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'calibration_curve') {'id': 'wandb/calibration/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'calibration_curve'}} None
+2024-08-12 17:45:01,135 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2024-08-12 17:45:01,484 INFO    MainThread:5624 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'precision_recall') {'id': 'wandb/pr_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'precision_recall'}} None
+2024-08-12 17:45:01,814 INFO    MainThread:5624 [wandb_run.py:_finish():1962] finishing run harshmp/truck-delay-classification/d9hhynft
+2024-08-12 17:45:01,814 INFO    MainThread:5624 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 1
+2024-08-12 17:45:01,815 INFO    MainThread:5624 [wandb_run.py:_restore():2185] restore
+2024-08-12 17:45:01,815 INFO    MainThread:5624 [wandb_run.py:_restore():2191] restore done
+2024-08-12 17:45:14,897 INFO    MainThread:5624 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-08-12 17:45:14,898 INFO    MainThread:5624 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-08-12 17:45:14,909 INFO    MainThread:5624 [wandb_run.py:_footer_sync_info():3796] logging synced files

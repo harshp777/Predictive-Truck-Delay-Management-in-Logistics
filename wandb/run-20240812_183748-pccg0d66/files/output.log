@@ -1,0 +1,24 @@
+F1_score Train: 0.9903
+F1_score Valid: 0.5518
+F1_score Test: 0.6769
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting RandomForestClassifier.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: Logged roc curve.
+[34m[1mwandb[39m[22m: Logged precision-recall curve.
+Traceback (most recent call last):
+  File "E:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\ml_pipeline\modelling.py", line 161, in train_random_forest
+    wandb.save("models/randomf-truck-model.pkl")
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 371, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 361, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1852, in save
+    return self._save(glob_str, base_path, policy)
+  File "C:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\wandb_run.py", line 1906, in _save
+    os.symlink(abs_path, wandb_path)
+OSError: [WinError 1314] A required privilege is not held by the client: 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\models\\randomf-truck-model.pkl' -> 'E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\run-20240812_183748-pccg0d66\\files\\models\\randomf-truck-model.pkl'

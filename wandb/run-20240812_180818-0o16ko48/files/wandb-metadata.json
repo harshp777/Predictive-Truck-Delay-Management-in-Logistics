@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.2",
+    "heartbeatAt": "2024-08-12T22:08:21.538913",
+    "startedAt": "2024-08-12T22:08:18.522603",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\engine.py",
+    "codePathLocal": "engine.py",
+    "codePath": "engine.py",
+    "git": {
+        "remote": "https://github.com/harshp777/Predictive-Truck-Delay-Management-in-Logistics.git",
+        "commit": "16ce98015a3131dd1ea81ef3024dacb611a83c5d"
+    },
+    "email": "harshkalppandya96@gmail.com",
+    "root": "E:/Artificial Intelligence/Projects/Predictive-Truck-Delay-Management-in-Logistics",
+    "host": "DESKTOP-0NGV2PF",
+    "username": "harsh",
+    "executable": "C:\\Users\\harsh\\anaconda3\\envs\\truck-delay\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2496.0,
+        "min": 0.0,
+        "max": 2496.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2496.0,
+            "min": 0.0,
+            "max": 2496.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 216.79589462280273,
+            "used": 146.57892227172852
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.79852294921875
+    }
+}
