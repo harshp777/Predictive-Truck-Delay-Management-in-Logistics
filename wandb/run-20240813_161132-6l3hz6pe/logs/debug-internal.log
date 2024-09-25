@@ -1,0 +1,147 @@
+2024-08-13 16:11:38,463 INFO    StreamThr :4708 [internal.py:wandb_internal():86] W&B internal server running at pid: 4708, started at: 2024-08-13 16:11:38.350356
+2024-08-13 16:11:38,494 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status
+2024-08-13 16:11:38,644 INFO    WriterThread:4708 [datastore.py:open_for_write():85] open: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\run-6l3hz6pe.wandb
+2024-08-13 16:11:38,646 DEBUG   SenderThread:4708 [sender.py:send():382] send: header
+2024-08-13 16:11:38,756 DEBUG   SenderThread:4708 [sender.py:send():382] send: run
+2024-08-13 16:11:39,121 INFO    SenderThread:4708 [dir_watcher.py:__init__():211] watching files in: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files
+2024-08-13 16:11:39,122 INFO    SenderThread:4708 [sender.py:_start_run_threads():1136] run started: 6l3hz6pe with start time 1723579898.350355
+2024-08-13 16:11:39,146 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: check_version
+2024-08-13 16:11:39,146 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: check_version
+2024-08-13 16:11:39,466 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: run_start
+2024-08-13 16:11:39,490 DEBUG   HandlerThread:4708 [system_info.py:__init__():32] System info init
+2024-08-13 16:11:39,490 DEBUG   HandlerThread:4708 [system_info.py:__init__():47] System info init done
+2024-08-13 16:11:39,490 INFO    HandlerThread:4708 [system_monitor.py:start():194] Starting system monitor
+2024-08-13 16:11:39,491 INFO    SystemMonitor:4708 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-13 16:11:39,491 INFO    HandlerThread:4708 [system_monitor.py:probe():214] Collecting system info
+2024-08-13 16:11:39,498 INFO    SystemMonitor:4708 [interfaces.py:start():190] Started cpu monitoring
+2024-08-13 16:11:39,499 INFO    SystemMonitor:4708 [interfaces.py:start():190] Started disk monitoring
+2024-08-13 16:11:39,500 INFO    SystemMonitor:4708 [interfaces.py:start():190] Started gpu monitoring
+2024-08-13 16:11:39,514 INFO    SystemMonitor:4708 [interfaces.py:start():190] Started memory monitoring
+2024-08-13 16:11:39,536 INFO    SystemMonitor:4708 [interfaces.py:start():190] Started network monitoring
+2024-08-13 16:11:40,554 DEBUG   HandlerThread:4708 [system_info.py:probe():196] Probing system
+2024-08-13 16:11:40,626 DEBUG   HandlerThread:4708 [system_info.py:_probe_git():181] Probing git
+2024-08-13 16:11:40,627 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:40,872 DEBUG   HandlerThread:4708 [system_info.py:_probe_git():189] Probing git done
+2024-08-13 16:11:40,872 DEBUG   HandlerThread:4708 [system_info.py:probe():244] Probing system done
+2024-08-13 16:11:40,872 DEBUG   HandlerThread:4708 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.2', 'heartbeatAt': '2024-08-13T20:11:40.554430', 'startedAt': '2024-08-13T20:11:32.237974', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/harshp777/Predictive-Truck-Delay-Management-in-Logistics.git', 'commit': '14865dbf18beb7e6287d26e2cce1b2c082de7ab5'}, 'email': 'harshkalppandya96@gmail.com', 'root': 'E:/Artificial Intelligence/Projects/Predictive-Truck-Delay-Management-in-Logistics', 'host': 'DESKTOP-0NGV2PF', 'username': 'harsh', 'executable': 'c:\\Users\\harsh\\anaconda3\\envs\\truck-delay\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 216.79589462280273, 'used': 146.61664581298828}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.79852294921875}}
+2024-08-13 16:11:40,912 INFO    HandlerThread:4708 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-13 16:11:40,913 INFO    HandlerThread:4708 [system_monitor.py:probe():227] Publishing system info
+2024-08-13 16:11:40,913 DEBUG   HandlerThread:4708 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-13 16:11:40,919 DEBUG   HandlerThread:4708 [system_info.py:_save_pip():68] Saving pip packages done
+2024-08-13 16:11:40,920 DEBUG   HandlerThread:4708 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-13 16:11:40,935 ERROR   HandlerThread:4708 [system_info.py:_save_conda():86] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2024-08-13 16:11:40,937 DEBUG   HandlerThread:4708 [system_info.py:_save_conda():87] Saving conda packages done
+2024-08-13 16:11:40,939 INFO    HandlerThread:4708 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-13 16:11:40,941 DEBUG   SenderThread:4708 [sender.py:send():382] send: files
+2024-08-13 16:11:40,941 INFO    SenderThread:4708 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-08-13 16:11:40,984 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:11:40,985 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:11:40,995 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:11:41,146 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\conda-environment.yaml
+2024-08-13 16:11:41,148 DEBUG   SenderThread:4708 [sender.py:send():382] send: telemetry
+2024-08-13 16:11:41,150 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\requirements.txt
+2024-08-13 16:11:41,152 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\wandb-metadata.json
+2024-08-13 16:11:41,786 INFO    wandb-upload_0:4708 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpfrrvrtgrwandb\dknmbm1c-wandb-metadata.json
+2024-08-13 16:11:42,147 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\output.log
+2024-08-13 16:11:43,264 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:44,177 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\output.log
+2024-08-13 16:11:44,284 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:11:45,923 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:48,547 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:49,317 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:11:51,183 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:53,833 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:54,369 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:11:55,981 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:11:55,981 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:11:56,012 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:11:56,466 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:11:59,104 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:00,133 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:01,767 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:04,427 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:05,152 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:07,142 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:09,783 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:10,216 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:10,462 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\config.yaml
+2024-08-13 16:12:10,993 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:12:10,994 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:12:11,024 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:12:12,418 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:15,097 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:16,212 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:17,736 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:20,506 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:21,227 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:23,163 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:25,677 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\output.log
+2024-08-13 16:12:25,794 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:26,002 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:12:26,003 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:12:26,038 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:12:27,106 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:27,701 INFO    Thread-30 :4708 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_161132-6l3hz6pe\files\output.log
+2024-08-13 16:12:28,431 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:31,102 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:32,184 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:33,736 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:36,365 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:37,225 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:39,050 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:39,543 DEBUG   SystemMonitor:4708 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-13 16:12:39,544 DEBUG   SenderThread:4708 [sender.py:send():382] send: stats
+2024-08-13 16:12:41,026 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:12:41,027 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:12:41,054 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:12:41,755 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:43,090 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:44,408 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:47,046 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:48,120 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:49,691 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:52,345 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:53,154 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:12:55,037 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:56,031 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:12:56,032 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:12:56,063 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:12:57,678 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:12:58,239 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:00,434 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:03,081 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:03,261 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:05,714 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:08,292 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:08,401 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:09,556 DEBUG   SenderThread:4708 [sender.py:send():382] send: stats
+2024-08-13 16:13:11,038 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:13:11,038 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:13:11,051 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:13:11,142 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:13,800 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:14,175 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:16,482 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:19,208 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:19,212 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:21,908 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:24,274 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:24,548 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:26,055 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 16:13:26,056 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 16:13:26,056 DEBUG   SenderThread:4708 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 16:13:27,215 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:29,512 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 16:13:29,900 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:32,546 ERROR   gpu       :4708 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 16:13:34,560 DEBUG   HandlerThread:4708 [handler.py:handle_request():146] handle_request: status_report

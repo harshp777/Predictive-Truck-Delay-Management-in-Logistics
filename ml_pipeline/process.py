@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from pickle import dump
 import logging
+import category_encoders as ce
 from .utils import setup_logging
 
 # Setup logging
@@ -47,11 +48,16 @@ def fill_missing_values_with_mode(data, column_name, mode_value):
 def process_categorical_data(data, encoder, encode_columns):
     try:
         # One-Hot Encode
-        encoded_features = list(encoder.get_feature_names_out(encode_columns))
-        data[encoded_features] = encoder.transform(data[encode_columns])
-        logger.info("One-Hot Encoding completed successfully.")
-
+        #encoded_features = list(encoder.get_feature_names_out(encode_columns))
+        #data[encoded_features] = encoder.transform(data[encode_columns])
         
+
+        encoded_features = encoder.transform(data[encode_columns])
+        data = pd.concat([data.drop(columns=encode_columns), encoded_features], axis=1)
+        #print("Hash Encoding completed successfully.")
+        #print("Original categorical features dropped successfully.")
+       
+        logger.info("Hash Encoding completed successfully.")
         logger.info("Original categorical features dropped successfully.")
 
         return data
@@ -95,6 +101,19 @@ def processing_data(config, train, valid, test):
         cts_cols = config['features']['cts_col_names']
         cat_cols = config['features']['cat_col_names']
         target = config['features']['target']
+        
+
+        # Extracting features and target variables
+        train = train[cts_cols + cat_cols]
+        y_train = train[target]
+
+        valid = valid[cts_cols + cat_cols]
+        y_valid = valid[target]
+
+        test = test[cts_cols + cat_cols]
+        y_test = test[target]
+
+
 
         # Drop null values from specified columns
         train = drop_null_values(train, columns_to_drop_nulls)
@@ -110,8 +129,9 @@ def processing_data(config, train, valid, test):
         fill_missing_values_with_mode(test, 'load_capacity_pounds', load_capacity_mode)
 
         # One-Hot Encode and Drop original categorical features
-        encoder = OneHotEncoder(sparse=False, handle_unknown='ignore')
+        #encoder = OneHotEncoder(sparse=False, handle_unknown='ignore')
         
+        encoder = ce.HashingEncoder(cols=encode_columns, n_components=8)
         encoder.fit(train[encode_columns])
         train = process_categorical_data(train, encoder, encode_columns)
         valid = process_categorical_data(valid, encoder, encode_columns)
@@ -123,23 +143,18 @@ def processing_data(config, train, valid, test):
         valid = scale_data(valid, scaler, cts_cols)
         test = scale_data(test, scaler, cts_cols)
 
+        X_train = train
+        X_valid = valid
+        X_test = test
+
         # Save encoder and scaler
         save_encoder_scaler(encoder, scaler)
 
-        # Extracting features and target variables
-        X_train = train[cts_cols + cat_cols]
-        y_train = train[target]
-
-        X_valid = valid[cts_cols + cat_cols]
-        y_valid = valid[target]
-
-        X_test = test[cts_cols + cat_cols]
-        y_test = test[target]
-
+        
         # Drop original categorical features
-        X_train = X_train.drop(encode_columns, axis=1)
-        X_valid = X_valid.drop(encode_columns, axis=1)
-        X_test = X_test.drop(encode_columns, axis=1)
+        #X_train = X_train.drop(encode_columns, axis=1)
+        #X_valid = X_valid.drop(encode_columns, axis=1)
+        #X_test = X_test.drop(encode_columns, axis=1)
 
         return X_train, y_train, X_valid, y_valid, X_test, y_test
 

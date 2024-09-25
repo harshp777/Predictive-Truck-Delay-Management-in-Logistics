@@ -1,0 +1,19 @@
+[0]	validation-mlogloss:0.61447
+[1]	validation-mlogloss:0.57315
+[2]	validation-mlogloss:0.54766
+[3]	validation-mlogloss:0.53639
+[4]	validation-mlogloss:0.53401
+[5]	validation-mlogloss:0.52809
+[6]	validation-mlogloss:0.52736
+[7]	validation-mlogloss:0.53177
+[8]	validation-mlogloss:0.53234
+[9]	validation-mlogloss:0.53368
+[10]	validation-mlogloss:0.53493
+[11]	validation-mlogloss:0.53324
+[12]	validation-mlogloss:0.53750
+[13]	validation-mlogloss:0.53614
+[14]	validation-mlogloss:0.53639
+[15]	validation-mlogloss:0.53703
+F1_score Train: 0.7149
+F1_score Valid: 0.5897
+F1_score Test: 0.6539

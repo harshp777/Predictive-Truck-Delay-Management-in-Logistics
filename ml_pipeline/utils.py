@@ -163,22 +163,25 @@ def fetch_best_model(config):
     # Iterate through runs to find the best F1 score
     for run in runs:
         # Fetch the metrics logged during the run
-        run_metrics = run.history()
 
-        # Check if all three F1 scores are logged in the metrics
-        if "f1_score_train" in run_metrics.columns and "f1_score_valid" in run_metrics.columns and "f1_score" in run_metrics.columns:
-            # Get the last F1 scores for training, validation, and test sets
-            f1_score_train = run_metrics['f1_score_train'].max()
-            f1_score_valid = run_metrics['f1_score_valid'].max()
-            f1_score_test = run_metrics['f1_score'].max()
+        if run.state == 'finished':
 
-            # Calculate the average F1 score to prioritize consistency
-            avg_f1_score = np.median([f1_score_train , f1_score_valid ,f1_score_test])
+            run_metrics = run.history()
 
-            # Update the best F1 score and run ID if a higher F1 score is found
-            if avg_f1_score > best_f1_score:
-                best_f1_score = avg_f1_score
-                best_run_id = run.id
+            # Check if all three F1 scores are logged in the metrics
+            if "f1_score_train" in run_metrics.columns and "f1_score_valid" in run_metrics.columns and "f1_score" in run_metrics.columns:
+                # Get the last F1 scores for training, validation, and test sets
+                f1_score_train = run_metrics['f1_score_train'].max()
+                f1_score_valid = run_metrics['f1_score_valid'].max()
+                f1_score_test = run_metrics['f1_score'].max()
+
+                # Calculate the average F1 score to prioritize consistency
+                avg_f1_score = np.median([f1_score_train , f1_score_valid ,f1_score_test])
+
+                # Update the best F1 score and run ID if a higher F1 score is found
+                if avg_f1_score > best_f1_score:
+                    best_f1_score = avg_f1_score
+                    best_run_id = run.id
 
             # print("f1_score_train", f1_score_train)
             # print("f1_score_valid", f1_score_valid)
@@ -194,12 +197,16 @@ def fetch_best_model(config):
     best_run = wandb.Api().run(f"{run.entity}/{PROJECT_NAME}/{best_run_id}")
 
     artifacts = best_run.logged_artifacts()
+    print(artifacts)
+    for i in artifacts:
+        print(i.type)
     best_model = [artifact for artifact in artifacts if artifact.type == 'model'][0]
 
     artifact_dir = best_model.download()
 
     # logger.info("artifact_dir: %s", artifact_dir)
 
+    
     return artifact_dir
 
 
@@ -232,13 +239,20 @@ def fill_missing_values_with_mode(data, column_name, mode_value):
 
 def process_categorical_data(data, encoder, encode_columns):
     try:
-        # One-Hot Encode
-        encoded_features = list(encoder.get_feature_names_out(encode_columns))
-        data[encoded_features] = encoder.transform(data[encode_columns])
-        print("One-Hot Encoding completed successfully.")
-
-
+        
+        encoded_features = encoder.transform(data[encode_columns])
+        data = pd.concat([data.drop(columns=encode_columns), encoded_features], axis=1)
+        print("Hash Encoding completed successfully.")
         print("Original categorical features dropped successfully.")
+
+        
+        # One-Hot Encode
+        #encoded_features = list(encoder.get_feature_names_out(encode_columns))
+        #data[encoded_features] = encoder.transform(data[encode_columns])
+        #print("One-Hot Encoding completed successfully.")
+
+
+        #print("Original categorical features dropped successfully.")
 
         return data
 
@@ -269,26 +283,37 @@ def processing_new_data(config, data, scaler, encoder):
         cat_cols = config['features']['cat_col_names']
         target = config['features']['target']
 
+        y_test = data[target]
+        # Extracting features and target variables
+        data = data[cts_cols + cat_cols]
         # Drop null values from specified columns
         data = drop_null_values(data, columns_to_drop_nulls)
+        print(data.columns)
+        print("After drop null")
 
         # Fill missing values with mode
         fill_missing_values_with_mode(data, 'load_capacity_pounds', 3000)
+        print(data.columns)
+        print("After fil missing values")
 
-        # One-Hot Encode and Drop original categorical features
+        # Hash Encode and Drop original categorical features
         data = process_categorical_data(data, encoder, encode_columns)
+        print(data.columns)
+        print("After hash encoding")
+
 
         # Scale data
         data = scale_data(data, scaler, cts_cols)
+        print(data.columns)
+        print("After scaling data")
 
         # Save encoder and scaler
         # save_encoder_scaler(encoder, scaler)
 
-        # Extracting features and target variables
-        X_test = data[cts_cols + cat_cols]
-        y_test = data[target]
+        X_test = data
+        
 
-        X_test = X_test.drop(encode_columns, axis=1)
+        #X_test = X_test.drop(encode_columns, axis=1)
 
         return X_test, y_test
 

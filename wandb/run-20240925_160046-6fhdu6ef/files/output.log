@@ -1,0 +1,13 @@
+F1_score Train: 0.5609
+F1_score Valid: 0.638
+F1_score Test: 0.7434
+wandb:
+wandb: Plotting LogisticRegression.
+wandb: Logged feature importances.
+wandb: Logged confusion matrix.
+wandb: Logged summary metrics.
+wandb: Logged class proportions.
+wandb: Logged calibration curve.
+wandb: WARNING wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+wandb: Logged roc curve.
+wandb: Logged precision-recall curve.

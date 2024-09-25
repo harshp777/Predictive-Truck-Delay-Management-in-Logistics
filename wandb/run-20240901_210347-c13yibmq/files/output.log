@@ -1,0 +1,61 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7527027027027028
+Best Run ID: 09u6xewt
+<wandb.apis.public.RunArtifacts object at 0x00000157C45A1300>
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+model
+wandb-history
+wandb:   1 of 1 files downloaded.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.34s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.54s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.25s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (2.37s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+
+
+
+
+
+
+
+
+Finished: Reading data from Hopsworks, using Hive (196.27s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (5.73s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+

@@ -1,0 +1,103 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7494908350305498
+Best Run ID: xpvij0ju
+<wandb.apis.public.RunArtifacts object at 0x000002D1FE5BA020>
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+model
+wandb-history
+wandb:   1 of 1 files downloaded.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+An error occurred during prediction The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- col_0
+- col_1
+- col_2
+- col_3
+- col_4
+- ...
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.33s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.52s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+Finished: Reading data from Hopsworks, using Hive (1.56s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.97s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finished: Reading data from Hopsworks, using Hive (245.32s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (5.98s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+
+Finished: Reading data from Hopsworks, using Hive (37.91s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+Finished: Reading data from Hopsworks, using Hive (5.62s)

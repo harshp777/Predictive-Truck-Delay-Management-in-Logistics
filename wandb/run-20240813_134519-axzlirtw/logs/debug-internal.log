@@ -1,0 +1,114 @@
+2024-08-13 13:45:25,547 INFO    StreamThr :20236 [internal.py:wandb_internal():86] W&B internal server running at pid: 20236, started at: 2024-08-13 13:45:25.545973
+2024-08-13 13:45:25,548 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status
+2024-08-13 13:45:25,549 INFO    WriterThread:20236 [datastore.py:open_for_write():85] open: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\run-axzlirtw.wandb
+2024-08-13 13:45:25,551 DEBUG   SenderThread:20236 [sender.py:send():382] send: header
+2024-08-13 13:45:25,551 DEBUG   SenderThread:20236 [sender.py:send():382] send: run
+2024-08-13 13:45:25,826 INFO    SenderThread:20236 [dir_watcher.py:__init__():211] watching files in: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files
+2024-08-13 13:45:25,827 INFO    SenderThread:20236 [sender.py:_start_run_threads():1136] run started: axzlirtw with start time 1723571124.583466
+2024-08-13 13:45:25,845 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: check_version
+2024-08-13 13:45:25,846 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: check_version
+2024-08-13 13:45:25,952 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: run_start
+2024-08-13 13:45:25,966 DEBUG   HandlerThread:20236 [system_info.py:__init__():32] System info init
+2024-08-13 13:45:25,966 DEBUG   HandlerThread:20236 [system_info.py:__init__():47] System info init done
+2024-08-13 13:45:25,966 INFO    HandlerThread:20236 [system_monitor.py:start():194] Starting system monitor
+2024-08-13 13:45:25,967 INFO    SystemMonitor:20236 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-13 13:45:25,967 INFO    HandlerThread:20236 [system_monitor.py:probe():214] Collecting system info
+2024-08-13 13:45:25,976 INFO    SystemMonitor:20236 [interfaces.py:start():190] Started cpu monitoring
+2024-08-13 13:45:25,976 INFO    SystemMonitor:20236 [interfaces.py:start():190] Started disk monitoring
+2024-08-13 13:45:25,977 INFO    SystemMonitor:20236 [interfaces.py:start():190] Started gpu monitoring
+2024-08-13 13:45:25,986 INFO    SystemMonitor:20236 [interfaces.py:start():190] Started memory monitoring
+2024-08-13 13:45:26,000 INFO    SystemMonitor:20236 [interfaces.py:start():190] Started network monitoring
+2024-08-13 13:45:26,558 DEBUG   HandlerThread:20236 [system_info.py:probe():196] Probing system
+2024-08-13 13:45:26,561 DEBUG   HandlerThread:20236 [system_info.py:_probe_git():181] Probing git
+2024-08-13 13:45:26,595 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:26,694 DEBUG   HandlerThread:20236 [system_info.py:_probe_git():189] Probing git done
+2024-08-13 13:45:26,694 DEBUG   HandlerThread:20236 [system_info.py:probe():244] Probing system done
+2024-08-13 13:45:26,695 DEBUG   HandlerThread:20236 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.2', 'heartbeatAt': '2024-08-13T17:45:26.559769', 'startedAt': '2024-08-13T17:45:19.922253', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/harshp777/Predictive-Truck-Delay-Management-in-Logistics.git', 'commit': '14865dbf18beb7e6287d26e2cce1b2c082de7ab5'}, 'email': 'harshkalppandya96@gmail.com', 'root': 'E:/Artificial Intelligence/Projects/Predictive-Truck-Delay-Management-in-Logistics', 'host': 'DESKTOP-0NGV2PF', 'username': 'harsh', 'executable': 'c:\\Users\\harsh\\anaconda3\\envs\\truck-delay\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 216.79589462280273, 'used': 146.6164665222168}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.79852294921875}}
+2024-08-13 13:45:26,695 INFO    HandlerThread:20236 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-13 13:45:26,695 INFO    HandlerThread:20236 [system_monitor.py:probe():227] Publishing system info
+2024-08-13 13:45:26,695 DEBUG   HandlerThread:20236 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-08-13 13:45:26,700 DEBUG   HandlerThread:20236 [system_info.py:_save_pip():68] Saving pip packages done
+2024-08-13 13:45:26,700 DEBUG   HandlerThread:20236 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-08-13 13:45:26,710 ERROR   HandlerThread:20236 [system_info.py:_save_conda():86] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2024-08-13 13:45:26,710 DEBUG   HandlerThread:20236 [system_info.py:_save_conda():87] Saving conda packages done
+2024-08-13 13:45:26,712 INFO    HandlerThread:20236 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-13 13:45:26,713 DEBUG   SenderThread:20236 [sender.py:send():382] send: files
+2024-08-13 13:45:26,714 INFO    SenderThread:20236 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-08-13 13:45:26,749 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:45:26,750 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:45:26,752 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:45:26,842 INFO    Thread-128:20236 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\requirements.txt
+2024-08-13 13:45:26,843 INFO    Thread-128:20236 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\wandb-metadata.json
+2024-08-13 13:45:26,843 INFO    Thread-128:20236 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\conda-environment.yaml
+2024-08-13 13:45:26,897 DEBUG   SenderThread:20236 [sender.py:send():382] send: telemetry
+2024-08-13 13:45:27,266 INFO    wandb-upload_0:20236 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpbkovwacawandb\mz75gm8s-wandb-metadata.json
+2024-08-13 13:45:27,853 INFO    Thread-128:20236 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\output.log
+2024-08-13 13:45:29,232 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:29,883 INFO    Thread-128:20236 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\output.log
+2024-08-13 13:45:30,943 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:31,846 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:34,471 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:35,973 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:37,101 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:39,709 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:41,041 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:41,741 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:45:41,757 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:45:41,758 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:45:42,326 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:44,939 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:46,974 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:47,554 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:50,175 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:52,004 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:52,801 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:55,420 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:56,749 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:45:56,764 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:45:56,765 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:45:57,858 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:45:58,053 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:45:58,161 INFO    Thread-128:20236 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\config.yaml
+2024-08-13 13:46:00,692 ERROR   gpu       :20236 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-08-13 13:46:00,842 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: pause
+2024-08-13 13:46:00,843 INFO    HandlerThread:20236 [handler.py:handle_request_pause():705] stopping system metrics thread
+2024-08-13 13:46:00,843 INFO    HandlerThread:20236 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-13 13:46:00,843 INFO    HandlerThread:20236 [interfaces.py:finish():202] Joined cpu monitor
+2024-08-13 13:46:00,844 INFO    HandlerThread:20236 [interfaces.py:finish():202] Joined disk monitor
+2024-08-13 13:46:00,844 DEBUG   SystemMonitor:20236 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-13 13:46:00,861 DEBUG   SystemMonitor:20236 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-13 13:46:00,861 DEBUG   SystemMonitor:20236 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-13 13:46:00,929 INFO    HandlerThread:20236 [interfaces.py:finish():202] Joined gpu monitor
+2024-08-13 13:46:00,931 INFO    HandlerThread:20236 [interfaces.py:finish():202] Joined memory monitor
+2024-08-13 13:46:00,932 INFO    HandlerThread:20236 [interfaces.py:finish():202] Joined network monitor
+2024-08-13 13:46:00,933 DEBUG   SenderThread:20236 [sender.py:send():382] send: stats
+2024-08-13 13:46:01,181 INFO    Thread-128:20236 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240813_134519-axzlirtw\files\output.log
+2024-08-13 13:46:02,946 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:07,977 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:11,760 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:46:11,761 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:46:11,762 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:46:13,885 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:18,930 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:23,955 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:26,762 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:46:26,763 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:46:26,779 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:46:29,944 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:35,002 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:40,050 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:41,767 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-13 13:46:41,768 DEBUG   SenderThread:20236 [sender.py:send_request():409] send_request: stop_status
+2024-08-13 13:46:41,782 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-13 13:46:45,865 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report
+2024-08-13 13:46:50,923 DEBUG   HandlerThread:20236 [handler.py:handle_request():146] handle_request: status_report

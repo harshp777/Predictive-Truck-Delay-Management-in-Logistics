@@ -1,0 +1,124 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7494908350305498
+Best Run ID: xpvij0ju
+<wandb.apis.public.RunArtifacts object at 0x0000027C2D2F6F50>
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+model
+wandb-history
+wandb:   1 of 1 files downloaded.
+Null values dropped successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'route_description', 'origin_description',
+       'destination_description', 'accident', 'fuel_type', 'gender',
+       'driving_style', 'ratings', 'is_midnight'],
+      dtype='object')
+After drop null
+Missing values in load_capacity_pounds filled with mode value.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'route_description', 'origin_description',
+       'destination_description', 'accident', 'fuel_type', 'gender',
+       'driving_style', 'ratings', 'is_midnight'],
+      dtype='object')
+After fil missing values
+Hash Encoding completed successfully.
+Original categorical features dropped successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'accident', 'ratings', 'is_midnight', 'col_0',
+       'col_1', 'col_2', 'col_3', 'col_4', 'col_5', 'col_6', 'col_7'],
+      dtype='object')
+After hash encoding
+Data scaling completed successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'accident', 'ratings', 'is_midnight', 'col_0',
+       'col_1', 'col_2', 'col_3', 'col_4', 'col_5', 'col_6', 'col_7'],
+      dtype='object')
+After scaling data
+Null values dropped successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'route_description', 'origin_description',
+       'destination_description', 'accident', 'fuel_type', 'gender',
+       'driving_style', 'ratings', 'is_midnight'],
+      dtype='object')
+After drop null
+Missing values in load_capacity_pounds filled with mode value.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'route_description', 'origin_description',
+       'destination_description', 'accident', 'fuel_type', 'gender',
+       'driving_style', 'ratings', 'is_midnight'],
+      dtype='object')
+After fil missing values
+Hash Encoding completed successfully.
+Original categorical features dropped successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'accident', 'ratings', 'is_midnight', 'col_0',
+       'col_1', 'col_2', 'col_3', 'col_4', 'col_5', 'col_6', 'col_7'],
+      dtype='object')
+After hash encoding
+Data scaling completed successfully.
+Index(['route_avg_temp', 'route_avg_wind_speed', 'route_avg_precip',
+       'route_avg_humidity', 'route_avg_visibility', 'route_avg_pressure',
+       'distance', 'average_hours', 'origin_temp', 'origin_wind_speed',
+       'origin_precip', 'origin_humidity', 'origin_visibility',
+       'origin_pressure', 'destination_temp', 'destination_wind_speed',
+       'destination_precip', 'destination_humidity', 'destination_visibility',
+       'destination_pressure', 'avg_no_of_vehicles', 'truck_age',
+       'load_capacity_pounds', 'mileage_mpg', 'age', 'experience',
+       'average_speed_mph', 'accident', 'ratings', 'is_midnight', 'col_0',
+       'col_1', 'col_2', 'col_3', 'col_4', 'col_5', 'col_6', 'col_7'],
+      dtype='object')

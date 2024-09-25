@@ -1,0 +1,12 @@
+F1_score Train: 0.8685
+F1_score Valid: 0.5873
+F1_score Test: 0.6967
+wandb:
+wandb: Plotting RandomForestClassifier.
+wandb: Logged feature importances.
+wandb: Logged confusion matrix.
+wandb: Logged summary metrics.
+wandb: Logged class proportions.
+wandb: Logged calibration curve.
+wandb: Logged roc curve.
+wandb: Logged precision-recall curve.

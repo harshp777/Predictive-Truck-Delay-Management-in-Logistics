@@ -1,0 +1,81 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7527027027027028
+Best Run ID: rdl3hm96
+<wandb.apis.public.RunArtifacts object at 0x000002ABE07A4FA0>
+run_table
+wandb-history
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (9.31s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.51s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (1.33s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+Finished: Reading data from Hopsworks, using Hive (2.71s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Finished: Reading data from Hopsworks, using Hive (282.86s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+Finished: Reading data from Hopsworks, using Hive (60.08s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+
+
+
+
+Finished: Reading data from Hopsworks, using Hive (55.91s)
+Connection closed.
+Connected. Call `.close()` to terminate connection gracefully.
+Logged in to project, explore it here https://c.app.hopsworks.ai:443/p/903317
+Connected. Call `.close()` to terminate connection gracefully.
+
+Finished: Reading data from Hopsworks, using Hive (5.29s)

@@ -1,0 +1,48 @@
+2024-08-15 18:13:16,869 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2024-08-15 18:13:16,869 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Configure stats pid to 27088
+2024-08-15 18:13:16,869 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Loading settings from C:\Users\harsh\.config\wandb\settings
+2024-08-15 18:13:16,869 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Loading settings from e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\settings
+2024-08-15 18:13:16,869 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'truck-delay-classification', 'entity': 'harshmp', 'root_dir': 'e:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics', 'run_id': '0wbfx2ec', 'sweep_param_path': 'e:\\Artificial Intelligence\\Projects\\Predictive-Truck-Delay-Management-in-Logistics\\wandb\\sweep-j1l5exyg\\config-0wbfx2ec.yaml', 'sweep_id': 'j1l5exyg'}
+2024-08-15 18:13:16,870 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-15 18:13:16,870 INFO    Thread-135 (_run_job):27088 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-08-15 18:13:16,871 INFO    Thread-135 (_run_job):27088 [wandb_init.py:_log_setup():524] Logging user logs to e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240815_181316-0wbfx2ec\logs\debug.log
+2024-08-15 18:13:16,871 INFO    Thread-135 (_run_job):27088 [wandb_init.py:_log_setup():525] Logging internal logs to e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240815_181316-0wbfx2ec\logs\debug-internal.log
+2024-08-15 18:13:16,871 INFO    Thread-135 (_run_job):27088 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000253FAA687C0>
+2024-08-15 18:13:16,871 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():564] calling init triggers
+2024-08-15 18:13:16,872 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():571] wandb.init called with sweep_config: {'max_depth': 10, 'min_samples_split': 4, 'n_estimators': 20}
+config: {}
+2024-08-15 18:13:16,872 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():614] starting backend
+2024-08-15 18:13:16,872 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():618] setting up manager
+2024-08-15 18:13:16,881 INFO    Thread-135 (_run_job):27088 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-15 18:13:16,881 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():624] backend started and connected
+2024-08-15 18:13:16,910 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb None None {'max_depth': 10, 'min_samples_split': 4, 'n_estimators': 20}
+2024-08-15 18:13:16,912 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-08-15 18:13:16,912 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-08-15 18:13:16,912 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():716] updated telemetry
+2024-08-15 18:13:16,976 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-08-15 18:13:17,204 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_on_init():2254] communicating current version
+2024-08-15 18:13:17,312 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.17.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-15 18:13:17,312 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():800] starting run threads in backend
+2024-08-15 18:13:18,673 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_console_start():2233] atexit reg
+2024-08-15 18:13:18,673 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-08-15 18:13:18,673 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-08-15 18:13:18,673 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-08-15 18:13:18,675 INFO    Thread-135 (_run_job):27088 [wandb_init.py:init():841] run started, returning control to user process
+2024-08-15 18:13:19,335 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'feature_importances') {'id': 'wandb/feature_importances/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'feature_importances'}} None
+2024-08-15 18:13:19,508 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2024-08-15 18:13:20,370 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'summary_metrics') {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'summary_metrics'}} None
+2024-08-15 18:13:20,516 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2024-08-15 18:13:22,026 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'calibration_curve') {'id': 'wandb/calibration/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'calibration_curve'}} None
+2024-08-15 18:13:22,417 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'roc') {'id': 'wandb/roc/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'roc'}} None
+2024-08-15 18:13:22,672 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'viz', 'precision_recall') {'id': 'wandb/pr_curve/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'precision_recall'}} None
+2024-08-15 18:13:23,002 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_finish():1962] finishing run harshmp/truck-delay-classification/0wbfx2ec
+2024-08-15 18:13:23,002 INFO    Thread-135 (_run_job):27088 [jupyter.py:save_history():445] not saving jupyter history
+2024-08-15 18:13:23,002 INFO    Thread-135 (_run_job):27088 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-08-15 18:13:23,002 INFO    Thread-135 (_run_job):27088 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2024-08-15 18:13:23,002 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2024-08-15 18:13:23,003 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_restore():2185] restore
+2024-08-15 18:13:23,003 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_restore():2191] restore done
+2024-08-15 18:13:41,885 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2024-08-15 18:13:41,886 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2024-08-15 18:13:41,895 INFO    Thread-135 (_run_job):27088 [wandb_run.py:_footer_sync_info():3796] logging synced files

@@ -1,0 +1,40 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7167138810198301
+Best Run ID: pf9l25hw
+<wandb.apis.public.RunArtifacts object at 0x00000229B91667D0>
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+model
+wandb-history
+wandb:   1 of 1 files downloaded.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+An error occurred during prediction The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- destination_description_Blizzard
+- destination_description_Blowing snow
+- destination_description_Clear
+- destination_description_Cloudy
+- destination_description_Fog
+- ...
+An error occurred during prediction The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- destination_description_Blizzard
+- destination_description_Blowing snow
+- destination_description_Clear
+- destination_description_Cloudy
+- destination_description_Fog

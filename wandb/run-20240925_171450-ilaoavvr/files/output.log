@@ -1,0 +1,29 @@
+
+Run scores comparison starting
+Best Average F1 Score: 0.7494908350305498
+Best Run ID: xpvij0ju
+<wandb.apis.public.RunArtifacts object at 0x000002D1878A4BB0>
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+run_table
+model
+wandb-history
+wandb:   1 of 1 files downloaded.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.
+Data scaling completed successfully.
+Null values dropped successfully.
+Missing values in load_capacity_pounds filled with mode value.
+One-Hot Encoding completed successfully.
+Original categorical features dropped successfully.

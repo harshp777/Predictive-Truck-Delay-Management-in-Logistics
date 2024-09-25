@@ -1,0 +1,14 @@
+F1_score Train: 0.5748
+F1_score Valid: 0.6087
+F1_score Test: 0.7252
+wandb:
+wandb: Plotting LogisticRegression.
+wandb: Logged feature importances.
+wandb: Logged confusion matrix.
+wandb: Logged summary metrics.
+wandb: Logged class proportions.
+wandb: WARNING A graphql request initiated by the public wandb API timed out (timeout=19 sec). Create a new API with an integer timeout larger than 19, e.g., `api = wandb.Api(timeout=29)` to increase the graphql timeout.
+wandb: Logged calibration curve.
+wandb: WARNING wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+wandb: Logged roc curve.
+wandb: Logged precision-recall curve.

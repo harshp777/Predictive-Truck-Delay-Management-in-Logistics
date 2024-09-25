@@ -1,0 +1,344 @@
+2024-09-25 16:13:24,052 INFO    StreamThr :29140 [internal.py:wandb_internal():86] W&B internal server running at pid: 29140, started at: 2024-09-25 16:13:24.051456
+2024-09-25 16:13:24,053 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: status
+2024-09-25 16:13:24,085 INFO    WriterThread:29140 [datastore.py:open_for_write():85] open: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\run-b2ns9twf.wandb
+2024-09-25 16:13:24,086 DEBUG   SenderThread:29140 [sender.py:send():382] send: header
+2024-09-25 16:13:24,150 DEBUG   SenderThread:29140 [sender.py:send():382] send: run
+2024-09-25 16:13:24,362 INFO    SenderThread:29140 [dir_watcher.py:__init__():211] watching files in: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files
+2024-09-25 16:13:24,363 INFO    SenderThread:29140 [sender.py:_start_run_threads():1136] run started: b2ns9twf with start time 1727295204.051456
+2024-09-25 16:13:24,383 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: check_version
+2024-09-25 16:13:24,383 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: check_version
+2024-09-25 16:13:24,529 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: run_start
+2024-09-25 16:13:24,564 DEBUG   HandlerThread:29140 [system_info.py:__init__():32] System info init
+2024-09-25 16:13:24,565 DEBUG   HandlerThread:29140 [system_info.py:__init__():47] System info init done
+2024-09-25 16:13:24,565 INFO    HandlerThread:29140 [system_monitor.py:start():194] Starting system monitor
+2024-09-25 16:13:24,565 INFO    SystemMonitor:29140 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-25 16:13:24,566 INFO    HandlerThread:29140 [system_monitor.py:probe():214] Collecting system info
+2024-09-25 16:13:24,573 INFO    SystemMonitor:29140 [interfaces.py:start():190] Started cpu monitoring
+2024-09-25 16:13:24,575 INFO    SystemMonitor:29140 [interfaces.py:start():190] Started disk monitoring
+2024-09-25 16:13:24,577 INFO    SystemMonitor:29140 [interfaces.py:start():190] Started gpu monitoring
+2024-09-25 16:13:24,588 INFO    SystemMonitor:29140 [interfaces.py:start():190] Started memory monitoring
+2024-09-25 16:13:24,606 DEBUG   HandlerThread:29140 [system_info.py:probe():196] Probing system
+2024-09-25 16:13:24,607 INFO    SystemMonitor:29140 [interfaces.py:start():190] Started network monitoring
+2024-09-25 16:13:24,619 DEBUG   HandlerThread:29140 [system_info.py:_probe_git():181] Probing git
+2024-09-25 16:13:24,629 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:24,629 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:24,750 DEBUG   HandlerThread:29140 [system_info.py:_probe_git():189] Probing git done
+2024-09-25 16:13:24,750 DEBUG   HandlerThread:29140 [system_info.py:probe():244] Probing system done
+2024-09-25 16:13:24,751 DEBUG   HandlerThread:29140 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.10.2', 'heartbeatAt': '2024-09-25T20:13:24.606101', 'startedAt': '2024-09-25T20:13:24.030938', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/harshp777/Predictive-Truck-Delay-Management-in-Logistics.git', 'commit': '14865dbf18beb7e6287d26e2cce1b2c082de7ab5'}, 'email': 'harshkalppandya96@gmail.com', 'root': 'E:/Artificial Intelligence/Projects/Predictive-Truck-Delay-Management-in-Logistics', 'host': 'DESKTOP-0NGV2PF', 'username': 'harsh', 'executable': 'c:\\Users\\harsh\\anaconda3\\envs\\truck-delay\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2496.0, 'min': 0.0, 'max': 2496.0}, 'cpu_freq_per_core': [{'current': 2496.0, 'min': 0.0, 'max': 2496.0}], 'disk': {'/': {'total': 216.79589462280273, 'used': 147.24677658081055}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.79852294921875}}
+2024-09-25 16:13:24,751 INFO    HandlerThread:29140 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-25 16:13:24,751 INFO    HandlerThread:29140 [system_monitor.py:probe():227] Publishing system info
+2024-09-25 16:13:24,751 DEBUG   HandlerThread:29140 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-09-25 16:13:24,752 DEBUG   HandlerThread:29140 [system_info.py:_save_pip():68] Saving pip packages done
+2024-09-25 16:13:24,752 DEBUG   HandlerThread:29140 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-09-25 16:13:24,761 ERROR   HandlerThread:29140 [system_info.py:_save_conda():86] Error saving conda packages: [WinError 2] The system cannot find the file specified
+Traceback (most recent call last):
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 82, in _save_conda
+    subprocess.call(
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 345, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 966, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "c:\Users\harsh\anaconda3\envs\truck-delay\lib\subprocess.py", line 1435, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+2024-09-25 16:13:24,763 DEBUG   HandlerThread:29140 [system_info.py:_save_conda():87] Saving conda packages done
+2024-09-25 16:13:24,764 INFO    HandlerThread:29140 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-25 16:13:24,770 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:24,770 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-09-25 16:13:24,807 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: stop_status
+2024-09-25 16:13:24,810 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: stop_status
+2024-09-25 16:13:24,815 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-25 16:13:25,040 DEBUG   SenderThread:29140 [sender.py:send():382] send: telemetry
+2024-09-25 16:13:25,123 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,124 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,125 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,125 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:25,126 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:25,128 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:25,128 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:25,128 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:25,129 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:25,129 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:25,129 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:25,130 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:25,131 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:25,157 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\831nunhq-wandb-metadata.json
+2024-09-25 16:13:25,318 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:25,319 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:25,364 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,374 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\requirements.txt
+2024-09-25 16:13:25,375 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:25,376 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\feature_importances_3_029692e0df0a22d26230.table.json
+2024-09-25 16:13:25,378 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:25,378 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-metadata.json
+2024-09-25 16:13:25,379 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\conda-environment.yaml
+2024-09-25 16:13:25,380 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table
+2024-09-25 16:13:25,380 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media
+2024-09-25 16:13:25,529 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:25,556 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,579 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\j3zlp2n2-media/table/feature_importances_3_029692e0df0a22d26230.table.json
+2024-09-25 16:13:25,841 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:25,862 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:25,995 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:26,015 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:26,023 INFO    wandb-upload_0:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmp39joem4h
+2024-09-25 16:13:26,375 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\summary_metrics_5_81f7bb22009b198870d2.table.json
+2024-09-25 16:13:26,376 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\confusion_matrix_4_1b720082235e2662092a.table.json
+2024-09-25 16:13:26,377 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\class_proportions_6_71e4c2c7324b5a7264d3.table.json
+2024-09-25 16:13:26,377 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table
+2024-09-25 16:13:26,422 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-feature_importances - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDA4Mg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM2NQ==', 'latestArtifact': None}}
+2024-09-25 16:13:26,422 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:26,422 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\feature_importances_3_029692e0df0a22d26230.table.json with policy now
+2024-09-25 16:13:26,423 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:26,423 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:26,426 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:26,427 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:26,427 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:26,639 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\0z3egp80-media/table/summary_metrics_5_81f7bb22009b198870d2.table.json
+2024-09-25 16:13:26,653 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:26,653 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:26,751 INFO    wandb-upload_2:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\2mqgvmd1-media/table/class_proportions_6_71e4c2c7324b5a7264d3.table.json
+2024-09-25 16:13:26,768 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:26,775 INFO    wandb-upload_1:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\pdzy0h3u-media/table/confusion_matrix_4_1b720082235e2662092a.table.json
+2024-09-25 16:13:26,796 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:26,822 INFO    wandb-upload_3:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\5i7xkl5k-media/table/feature_importances_3_029692e0df0a22d26230.table.json
+2024-09-25 16:13:27,048 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:27,112 INFO    wandb-upload_0:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmp9yswq7i7
+2024-09-25 16:13:27,142 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:27,285 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:27,308 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: partial_history
+2024-09-25 16:13:27,392 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:27,392 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:27,393 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\random_f_tuned.pkl
+2024-09-25 16:13:27,393 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\calibration_curve_7_3cd4e4021bf1e0bc090e.table.json
+2024-09-25 16:13:27,394 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\precision_recall_9_6476442dfe6f61db37ab.table.json
+2024-09-25 16:13:27,394 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_created():271] file/dir created: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\roc_8_2bc77cfbc8888bf18d1c.table.json
+2024-09-25 16:13:27,395 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table
+2024-09-25 16:13:27,456 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: log_artifact
+2024-09-25 16:13:27,539 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-confusion_matrix - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDA5Ng==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM2OA==', 'latestArtifact': None}}
+2024-09-25 16:13:27,540 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:27,540 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\confusion_matrix_4_1b720082235e2662092a.table.json with policy now
+2024-09-25 16:13:27,541 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:27,541 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:27,541 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:27,542 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:27,542 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:27,731 INFO    wandb-upload_1:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\0kyj3agw-media/table/calibration_curve_7_3cd4e4021bf1e0bc090e.table.json
+2024-09-25 16:13:27,775 INFO    wandb-upload_3:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\tdjdagwk-media/table/roc_8_2bc77cfbc8888bf18d1c.table.json
+2024-09-25 16:13:27,780 INFO    wandb-upload_2:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\mc3akf2v-media/table/precision_recall_9_6476442dfe6f61db37ab.table.json
+2024-09-25 16:13:27,841 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\r7bhl7rn-media/table/confusion_matrix_4_1b720082235e2662092a.table.json
+2024-09-25 16:13:28,019 INFO    wandb-upload_4:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmpl4v1uikn
+2024-09-25 16:13:28,406 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:28,408 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-summary_metrics - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDExNg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM3Mw==', 'latestArtifact': None}}
+2024-09-25 16:13:28,409 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:28,409 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\summary_metrics_5_81f7bb22009b198870d2.table.json with policy now
+2024-09-25 16:13:28,411 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:28,411 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:28,412 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:28,414 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:28,414 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:28,474 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-25 16:13:28,667 INFO    wandb-upload_1:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\hv97xaw7-media/table/summary_metrics_5_81f7bb22009b198870d2.table.json
+2024-09-25 16:13:28,671 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:28,671 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:28,959 INFO    wandb-upload_2:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmpfo29njiz
+2024-09-25 16:13:29,424 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:29,424 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:29,582 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-class_proportions - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDEzMA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM3OA==', 'latestArtifact': None}}
+2024-09-25 16:13:29,582 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:29,583 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: status_report
+2024-09-25 16:13:29,583 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\class_proportions_6_71e4c2c7324b5a7264d3.table.json with policy now
+2024-09-25 16:13:29,584 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:29,584 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:29,584 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:29,585 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:29,585 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:29,830 INFO    wandb-upload_4:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\c5546vjr-media/table/class_proportions_6_71e4c2c7324b5a7264d3.table.json
+2024-09-25 16:13:30,058 INFO    wandb-upload_0:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmpeivx9vn6
+2024-09-25 16:13:30,409 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-calibration_curve - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDE1MA==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM4Mw==', 'latestArtifact': None}}
+2024-09-25 16:13:30,409 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:30,410 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\calibration_curve_7_3cd4e4021bf1e0bc090e.table.json with policy now
+2024-09-25 16:13:30,410 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:30,411 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:30,411 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:30,412 DEBUG   SenderThread:29140 [sender.py:send():382] send: telemetry
+2024-09-25 16:13:30,412 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:30,412 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:30,428 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:30,686 INFO    wandb-upload_2:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\tr1yibeb-media/table/calibration_curve_7_3cd4e4021bf1e0bc090e.table.json
+2024-09-25 16:13:30,696 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:30,696 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:30,962 INFO    wandb-upload_1:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmpjq8qsysq
+2024-09-25 16:13:31,431 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:31,445 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-roc - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDE2Mw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM4Nw==', 'latestArtifact': None}}
+2024-09-25 16:13:31,445 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:31,445 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\roc_8_2bc77cfbc8888bf18d1c.table.json with policy now
+2024-09-25 16:13:31,446 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:31,446 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:31,447 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:31,447 DEBUG   SenderThread:29140 [sender.py:send():382] send: config
+2024-09-25 16:13:31,447 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:31,726 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\ylktflhe-media/table/roc_8_2bc77cfbc8888bf18d1c.table.json
+2024-09-25 16:13:31,907 INFO    wandb-upload_4:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmpk8q27oxt
+2024-09-25 16:13:32,358 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact run-b2ns9twf-precision_recall - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDE4Mg==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQ2MjA0MTM5NA==', 'latestArtifact': None}}
+2024-09-25 16:13:32,358 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:32,359 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file media\table\precision_recall_9_6476442dfe6f61db37ab.table.json with policy now
+2024-09-25 16:13:32,360 DEBUG   SenderThread:29140 [sender.py:send():382] send: history
+2024-09-25 16:13:32,360 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: summary_record
+2024-09-25 16:13:32,361 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:32,362 DEBUG   SenderThread:29140 [sender.py:send():382] send: telemetry
+2024-09-25 16:13:32,362 DEBUG   SenderThread:29140 [sender.py:send():382] send: files
+2024-09-25 16:13:32,362 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file random_f_tuned.pkl with policy live
+2024-09-25 16:13:32,364 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: log_artifact
+2024-09-25 16:13:32,451 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:32,632 INFO    wandb-upload_1:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\d9vldwcb-media/table/precision_recall_9_6476442dfe6f61db37ab.table.json
+2024-09-25 16:13:32,657 INFO    wandb-upload_2:29140 [upload_job.py:push():131] Uploaded file C:\Users\harsh\AppData\Local\Temp\tmpm66mazd9wandb\svc12bq9-random_f_tuned.pkl
+2024-09-25 16:13:32,726 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:32,726 ERROR   gpu       :29140 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-09-25 16:13:33,167 INFO    wandb-upload_4:29140 [upload_job.py:push():89] Uploaded file C:\Users\harsh\AppData\Local\wandb\wandb\artifacts\staging\tmp5cwpn4_i
+2024-09-25 16:13:33,462 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:33,507 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: keepalive
+2024-09-25 16:13:33,619 INFO    SenderThread:29140 [sender.py:send_request_log_artifact():1458] logged artifact RandomForestClassifier - {'id': 'QXJ0aWZhY3Q6MTI0ODEyMDIwMw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM3OTY1Nzk4Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTI0ODExOTg0Nw==', 'versionIndex': 100}}}
+2024-09-25 16:13:33,619 DEBUG   SenderThread:29140 [sender.py:send():382] send: telemetry
+2024-09-25 16:13:33,619 DEBUG   SenderThread:29140 [sender.py:send():382] send: exit
+2024-09-25 16:13:33,619 INFO    SenderThread:29140 [sender.py:send_exit():589] handling exit code: 0
+2024-09-25 16:13:33,619 INFO    SenderThread:29140 [sender.py:send_exit():591] handling runtime: 2
+2024-09-25 16:13:33,620 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:33,620 INFO    SenderThread:29140 [sender.py:send_exit():597] send defer
+2024-09-25 16:13:33,621 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: poll_exit
+2024-09-25 16:13:33,621 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,621 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 0
+2024-09-25 16:13:33,622 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,622 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-09-25 16:13:33,622 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 1
+2024-09-25 16:13:33,622 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,622 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 1
+2024-09-25 16:13:33,623 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,623 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-09-25 16:13:33,623 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 2
+2024-09-25 16:13:33,623 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,623 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 2
+2024-09-25 16:13:33,623 INFO    HandlerThread:29140 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-25 16:13:33,623 DEBUG   SystemMonitor:29140 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-25 16:13:33,625 INFO    HandlerThread:29140 [interfaces.py:finish():202] Joined cpu monitor
+2024-09-25 16:13:33,625 DEBUG   SystemMonitor:29140 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-25 16:13:33,637 INFO    HandlerThread:29140 [interfaces.py:finish():202] Joined disk monitor
+2024-09-25 16:13:33,638 DEBUG   SystemMonitor:29140 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-25 16:13:33,693 ERROR   gpu       :29140 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-09-25 16:13:33,693 INFO    HandlerThread:29140 [interfaces.py:finish():202] Joined gpu monitor
+2024-09-25 16:13:33,694 INFO    HandlerThread:29140 [interfaces.py:finish():202] Joined memory monitor
+2024-09-25 16:13:33,695 INFO    HandlerThread:29140 [interfaces.py:finish():202] Joined network monitor
+2024-09-25 16:13:33,695 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,695 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-09-25 16:13:33,695 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 3
+2024-09-25 16:13:33,695 DEBUG   SenderThread:29140 [sender.py:send():382] send: stats
+2024-09-25 16:13:33,695 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,696 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 3
+2024-09-25 16:13:33,696 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,696 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-09-25 16:13:33,696 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 4
+2024-09-25 16:13:33,696 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,697 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 4
+2024-09-25 16:13:33,697 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,697 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-09-25 16:13:33,697 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 5
+2024-09-25 16:13:33,697 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,697 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 5
+2024-09-25 16:13:33,698 DEBUG   SenderThread:29140 [sender.py:send():382] send: summary
+2024-09-25 16:13:33,698 INFO    SenderThread:29140 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-09-25 16:13:33,699 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,699 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-09-25 16:13:33,699 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 6
+2024-09-25 16:13:33,699 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,699 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 6
+2024-09-25 16:13:33,700 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,700 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-09-25 16:13:33,704 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: status_report
+2024-09-25 16:13:33,784 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 7
+2024-09-25 16:13:33,785 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:33,785 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 7
+2024-09-25 16:13:33,785 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:33,785 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-09-25 16:13:34,472 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\config.yaml
+2024-09-25 16:13:34,472 INFO    Thread-16 :29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:34,518 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-25 16:13:35,316 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 8
+2024-09-25 16:13:35,316 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: poll_exit
+2024-09-25 16:13:35,316 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:35,317 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 8
+2024-09-25 16:13:35,317 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:35,317 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-09-25 16:13:35,317 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 9
+2024-09-25 16:13:35,318 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:35,318 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 9
+2024-09-25 16:13:35,318 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:35,319 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-09-25 16:13:35,319 INFO    SenderThread:29140 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-25 16:13:35,484 INFO    SenderThread:29140 [dir_watcher.py:_on_file_modified():288] file/dir modified: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:35,488 INFO    SenderThread:29140 [dir_watcher.py:finish():388] scan: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files
+2024-09-25 16:13:35,489 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\conda-environment.yaml conda-environment.yaml
+2024-09-25 16:13:35,489 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\config.yaml config.yaml
+2024-09-25 16:13:35,490 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log output.log
+2024-09-25 16:13:35,492 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\random_f_tuned.pkl random_f_tuned.pkl
+2024-09-25 16:13:35,493 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\requirements.txt requirements.txt
+2024-09-25 16:13:35,495 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-metadata.json wandb-metadata.json
+2024-09-25 16:13:35,495 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json wandb-summary.json
+2024-09-25 16:13:35,501 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\calibration_curve_7_3cd4e4021bf1e0bc090e.table.json media/table/calibration_curve_7_3cd4e4021bf1e0bc090e.table.json
+2024-09-25 16:13:35,501 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\class_proportions_6_71e4c2c7324b5a7264d3.table.json media/table/class_proportions_6_71e4c2c7324b5a7264d3.table.json
+2024-09-25 16:13:35,502 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\confusion_matrix_4_1b720082235e2662092a.table.json media/table/confusion_matrix_4_1b720082235e2662092a.table.json
+2024-09-25 16:13:35,502 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\feature_importances_3_029692e0df0a22d26230.table.json media/table/feature_importances_3_029692e0df0a22d26230.table.json
+2024-09-25 16:13:35,502 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\precision_recall_9_6476442dfe6f61db37ab.table.json media/table/precision_recall_9_6476442dfe6f61db37ab.table.json
+2024-09-25 16:13:35,502 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\roc_8_2bc77cfbc8888bf18d1c.table.json media/table/roc_8_2bc77cfbc8888bf18d1c.table.json
+2024-09-25 16:13:35,503 INFO    SenderThread:29140 [dir_watcher.py:finish():402] scan save: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\media\table\summary_metrics_5_81f7bb22009b198870d2.table.json media/table/summary_metrics_5_81f7bb22009b198870d2.table.json
+2024-09-25 16:13:35,503 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 10
+2024-09-25 16:13:35,503 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:35,503 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 10
+2024-09-25 16:13:35,503 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:35,503 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-09-25 16:13:35,504 INFO    SenderThread:29140 [file_pusher.py:finish():175] shutting down file pusher
+2024-09-25 16:13:35,529 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-25 16:13:35,530 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: poll_exit
+2024-09-25 16:13:35,689 INFO    wandb-upload_4:29140 [upload_job.py:push():131] Uploaded file e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\requirements.txt
+2024-09-25 16:13:35,697 INFO    wandb-upload_0:29140 [upload_job.py:push():131] Uploaded file e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\config.yaml
+2024-09-25 16:13:35,746 INFO    wandb-upload_2:29140 [upload_job.py:push():131] Uploaded file e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\output.log
+2024-09-25 16:13:35,746 INFO    wandb-upload_3:29140 [upload_job.py:push():131] Uploaded file e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\files\wandb-summary.json
+2024-09-25 16:13:35,957 INFO    Thread-15 (_thread_body):29140 [sender.py:transition_state():617] send defer: 11
+2024-09-25 16:13:35,957 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:35,957 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 11
+2024-09-25 16:13:35,958 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:35,958 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-09-25 16:13:35,958 INFO    SenderThread:29140 [file_pusher.py:join():181] waiting for file pusher
+2024-09-25 16:13:35,958 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 12
+2024-09-25 16:13:35,958 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:35,958 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 12
+2024-09-25 16:13:35,959 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:35,959 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-09-25 16:13:35,959 INFO    SenderThread:29140 [file_stream.py:finish():595] file stream finish called
+2024-09-25 16:13:36,041 INFO    SenderThread:29140 [file_stream.py:finish():599] file stream finish is done
+2024-09-25 16:13:36,042 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 13
+2024-09-25 16:13:36,042 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:36,042 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 13
+2024-09-25 16:13:36,042 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:36,042 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-09-25 16:13:36,042 INFO    SenderThread:29140 [sender.py:transition_state():617] send defer: 14
+2024-09-25 16:13:36,043 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: defer
+2024-09-25 16:13:36,043 DEBUG   SenderThread:29140 [sender.py:send():382] send: final
+2024-09-25 16:13:36,043 INFO    HandlerThread:29140 [handler.py:handle_request_defer():172] handle defer: 14
+2024-09-25 16:13:36,043 DEBUG   SenderThread:29140 [sender.py:send():382] send: footer
+2024-09-25 16:13:36,043 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: defer
+2024-09-25 16:13:36,043 INFO    SenderThread:29140 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-09-25 16:13:36,044 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: poll_exit
+2024-09-25 16:13:36,045 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: poll_exit
+2024-09-25 16:13:36,046 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: internal_messages
+2024-09-25 16:13:36,047 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: server_info
+2024-09-25 16:13:36,048 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: get_summary
+2024-09-25 16:13:36,048 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: sampled_history
+2024-09-25 16:13:36,049 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: job_info
+2024-09-25 16:13:36,049 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: server_info
+2024-09-25 16:13:36,109 DEBUG   SenderThread:29140 [sender.py:send_request():409] send_request: job_info
+2024-09-25 16:13:36,110 DEBUG   HandlerThread:29140 [handler.py:handle_request():146] handle_request: shutdown
+2024-09-25 16:13:36,110 INFO    HandlerThread:29140 [handler.py:finish():866] shutting down handler
+2024-09-25 16:13:37,052 INFO    WriterThread:29140 [datastore.py:close():294] close: e:\Artificial Intelligence\Projects\Predictive-Truck-Delay-Management-in-Logistics\wandb\run-20240925_161324-b2ns9twf\run-b2ns9twf.wandb
+2024-09-25 16:13:37,114 INFO    SenderThread:29140 [sender.py:finish():1548] shutting down sender
+2024-09-25 16:13:37,114 INFO    SenderThread:29140 [file_pusher.py:finish():175] shutting down file pusher
+2024-09-25 16:13:37,114 INFO    SenderThread:29140 [file_pusher.py:join():181] waiting for file pusher
